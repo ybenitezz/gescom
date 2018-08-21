@@ -1,0 +1,2 @@
+# gescom
+base de datos 
