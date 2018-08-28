@@ -1,0 +1,123 @@
+@import url("fuentes.css");
+
+/******************** NATIVOS */
+body {
+font-family: 'MPLUSRounded1c-Regular', sans-serif;;
+color: #2a2c33;
+}
+
+.nombre-indicador {
+text-align: left;
+}
+    
+
+/* ENCABEZADO */
+#encabezado {
+background: #7489c7;
+display: grid;
+grid-template-columns: 0.5fr 3fr repeat(7, 1fr);
+}
+
+#encabezado div {
+text-align: right;
+padding: 3px;
+}
+
+#encabezado p {
+margin: 0;
+padding: 0;
+}
+
+#encabezado .nombre-indicador1 {
+text-align: left;
+padding: 10px;
+font-style: 'Bold';
+}
+
+#encabezado .nombre-indicador {
+text-align: left;
+padding: 10px;
+}
+
+/*****************TITULOS COLUMNAS*/
+#titulos_columnas {
+background: #7489c7;
+display: grid;
+grid-template-columns: 0.5fr 3fr repeat(7, 1fr);
+}
+
+#titulos_columnas div {
+text-align: right;
+padding: 3px;
+}
+    
+#titulos_columnas p {
+margin: 0;
+padding: 0;
+}
+
+/*****************SUBTITULO*/
+#subtitulo {
+background:#7baecf;
+display: grid;
+grid-template-columns: 1 / -1;
+}
+
+#subtitulo div {
+text-align: left;
+padding-left: 6px;
+font-weight: bold;
+font-size: 1.5em;
+margin: 0;
+}
+
+/********************INDICADORES INICIALES*/
+#indicadores-iniciales {
+background: #ceeefc;
+display: grid;
+grid-template-columns: 0.5fr 3fr repeat(7, 1fr);
+}
+
+#indicadores-iniciales div {
+text-align: right;
+padding: 3px;
+}
+
+#indicadores-iniciales p {
+margin: 0;
+padding: 0;
+}
+
+/********************INDICADORES VARIABLES*/
+#indicadores-variables {
+background: #ceeefc;
+display: grid;
+grid-template-columns: 0.5fr 3fr repeat(7, 1fr);
+}
+
+#indicadores-variables div {
+text-align: right;
+padding: 3px;
+}
+
+#indicadores-variables p {
+margin: 0;
+padding: 0;
+}
+
+/********************INDICADORES FINALES*/
+#indicadores-finales {
+background: #ceeefc;
+display: grid;
+grid-template-columns: 0.5fr 3fr repeat(7, 1fr);
+}
+
+#indicadores-finales div {
+text-align: right;
+padding: 3px;
+}
+
+#indicadores-finales p {
+margin: 0;
+padding: 0;
+}
